@@ -50,9 +50,14 @@ const Header = () => (
           {/* hire me, insert a button if want to */}
         </div>
         <div className="CVdownload-button">
-          <a href = "https://drive.google.com/u/0/uc?id=1E9U0v_kFfv-a8lrz5RPaGn8LdsZXUjra&export=download">
+          {/* <a href = "https://drive.google.com/u/0/uc?id=1oQXOvUxxXuw3HDeYPkoZB_3RiSCh0PTb&export=download">  */}
+          {/* 1 page CV */}
+
+
+          <a href = "https://drive.google.com/u/0/uc?id=1YwPuxGEzm6mlPcE4wgCqpyEDgawf_SOR&export=download">  
+          {/* 2 page resume */}
             <button type='submit'>
-              Download CV
+              DOWNLOAD RESUME
             </button>
           </a>
         </div>
