@@ -7,6 +7,7 @@ import python from '../assets/images/python.png';
 import dataviz from '../assets/images/dataviz.png';
 import db from '../assets/images/db.png';
 import profile from '../assets/images/profile.png';
+<<<<<<< HEAD
 import logo from '../assets/images/logo.svg';
 import footerleft from '../assets/images/footerleft.png';
 
@@ -28,6 +29,12 @@ import blob_y08 from '../assets/images/blob_y08.svg';
 import blob_y09 from '../assets/images/blob_y09.svg';
 
 
+=======
+import circle from '../assets/images/circle.svg';
+import logo from '../assets/images/logo.png';
+import footerleft from '../assets/images/footerleft.png';
+
+>>>>>>> 58be3b803b0202b52abeb32a061277628cd57ab3
 export default {
   email,
   whatsapp,
@@ -39,6 +46,7 @@ export default {
   db,
   python,
   profile,
+<<<<<<< HEAD
   logo,
   letter_n,
 
@@ -57,4 +65,8 @@ export default {
   blob_y07,
   blob_y08,
   blob_y09,
+=======
+  circle,
+  logo,
+>>>>>>> 58be3b803b0202b52abeb32a061277628cd57ab3
 };

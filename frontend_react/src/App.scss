@@ -1,5 +1,6 @@
 .app {
   background-color: var(--lightwhite-color);
+<<<<<<< HEAD
   font-family: var(--font-inter);
 }
 
@@ -9,6 +10,17 @@
 
 .app__primarybg {
   background-color: var(--lightwhite-color);
+=======
+  font-family: var(--font-base);
+}
+
+.app__whitebg {
+  background-color: var(--lightblack-color);
+}
+
+.app__primarybg {
+  background-color: var(--midblack-color);
+>>>>>>> 58be3b803b0202b52abeb32a061277628cd57ab3
 }
 
 .app__container {
@@ -24,6 +36,7 @@
   justify-content: center;
   align-items: center;
   font-family: var(--font-base);
+<<<<<<< HEAD
   font-size: 100%;
   color: var(--brown-color);
 }
@@ -34,6 +47,8 @@
   align-items: center;
   font-family: var(--font-inter);
   color: var(--lightwhite-color);
+=======
+>>>>>>> 58be3b803b0202b52abeb32a061277628cd57ab3
 }
 
 .app__wrapper {
@@ -63,12 +78,21 @@
 }
 
 .head-text {
+<<<<<<< HEAD
   font-size: 3.75rem;
   font-weight: 800;
   text-align: center;
   font-family: var(--font-libre);
   color: var(--brown-color);
   text-transform: capitalize;
+=======
+  font-size: 3rem;
+  font-weight: 800;
+  text-align: center;
+  font-family: var(--font-itim);
+  color: var(--lightwhite-color);
+  // text-transform: capitalize;
+>>>>>>> 58be3b803b0202b52abeb32a061277628cd57ab3
 
   span {
     color: var(--yellow-color);
@@ -78,6 +102,7 @@
   @media screen and (min-width: 2000px) {
     font-size: 4rem;
   }
+<<<<<<< HEAD
   @media screen and (max-width: 1200px) {
     font-size: 3.5rem;
   }
@@ -87,12 +112,16 @@
   @media screen and (max-width: 768px) {
     font-size: 2.4rem;
   }
+=======
+
+>>>>>>> 58be3b803b0202b52abeb32a061277628cd57ab3
   @media screen and (max-width: 450px) {
     font-size: 2rem;
   }
 }
 
 .p-text {
+<<<<<<< HEAD
   text-align: left;
   color: var(--brown-color);
   font-size: 0.9rem;
@@ -112,14 +141,30 @@
     font-size: 1rem;
   }
   @media screen and (max-width: 450px) {
+=======
+  font-size: 1rem;
+  text-align: left;
+  color: var(--lightwhite-color);
+  line-height: 1.5;
+
+  @media screen and (min-width: 2000px) {
+    font-size: 1.75rem;
+  }
+  @media screen and (min-width: 1200px) {
+>>>>>>> 58be3b803b0202b52abeb32a061277628cd57ab3
     font-size: 0.9rem;
   }
 }
 
 .bold-text {
   font-size: 1rem;
+<<<<<<< HEAD
   font-weight: 900;
   color: var(--brown-color);
+=======
+  font-weight: 800;
+  color: var(--yellow-color);
+>>>>>>> 58be3b803b0202b52abeb32a061277628cd57ab3
   text-align: left;
 
   @media screen and (min-width: 2000px) {
@@ -143,15 +188,25 @@
   align-items: center;
   flex-direction: column;
 
+<<<<<<< HEAD
   padding: 2rem;
+=======
+  padding: 1.5rem;
+>>>>>>> 58be3b803b0202b52abeb32a061277628cd57ab3
 
   div {
     width: 40px;
     height: 40px;
     border-radius: 50%;
+<<<<<<< HEAD
     background-color: var(--yellow-color);
     margin: 0.3rem 0;
     border: 1px solid var(--yellow-color);
+=======
+    background-color: var(--lightblack-color);
+    margin: 0.3rem 0;
+    border: 1px solid var(--lightwhite-color);
+>>>>>>> 58be3b803b0202b52abeb32a061277628cd57ab3
 
     display: flex;
     justify-content: center;
@@ -160,6 +215,7 @@
     transition: all 0.3s ease-in-out;
 
     svg {
+<<<<<<< HEAD
       width: 18px;
       height: 18px;
       color: var(--brown-color);
@@ -171,18 +227,41 @@
 
       svg {
         color: var(--yellow-color);
+=======
+      width: 15px;
+      height: 15px;
+      color: var(--lightwhite-color);
+    }
+
+    &:hover {
+      background-color: var(--midblack-color);
+      border-color: var(--white-color);
+
+      svg {
+        color: var(--white-color);
+>>>>>>> 58be3b803b0202b52abeb32a061277628cd57ab3
       }
     }
 
     @media screen and (min-width: 2000px) {
+<<<<<<< HEAD
       width: 50px;
       height: 50px;
+=======
+      width: 70px;
+      height: 70px;
+>>>>>>> 58be3b803b0202b52abeb32a061277628cd57ab3
 
       margin: 0.5rem 0;
 
       svg {
+<<<<<<< HEAD
         width: 20px;
         height: 20px;
+=======
+        width: 30px;
+        height: 30px;
+>>>>>>> 58be3b803b0202b52abeb32a061277628cd57ab3
       }
     }
   }
@@ -204,7 +283,11 @@
     width: 11px;
     height: 11px;
     border-radius: 50%;
+<<<<<<< HEAD
     background-color: var(--brown-color);
+=======
+    background-color: var(--lightwhite-color);
+>>>>>>> 58be3b803b0202b52abeb32a061277628cd57ab3
     margin: 0.6rem;
 
     transition: background-color 0.2s ease-in-out;

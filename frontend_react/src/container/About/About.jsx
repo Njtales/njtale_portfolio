@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
+<<<<<<< HEAD
 import ReactTooltip from 'react-tooltip';
 import { AppWrap, MotionWrap } from '../../wrapper';
 import { urlFor, client } from '../../client';
@@ -10,6 +11,15 @@ const About = () => {
   const [abouts, setAbouts] = useState([]);
   const [experiences, setExperiences] = useState([]);
   const [skills, setSkills] = useState([]);
+=======
+
+import { AppWrap, MotionWrap } from '../../wrapper';
+import './About.scss';
+import { urlFor, client } from '../../client';
+
+const About = () => {
+  const [abouts, setAbouts] = useState([]);
+>>>>>>> 58be3b803b0202b52abeb32a061277628cd57ab3
 
   useEffect(() => {
     const query = '*[_type == "abouts"]';
@@ -19,6 +29,7 @@ const About = () => {
     });
   }, []);
 
+<<<<<<< HEAD
   useEffect(() => {
     const experienceQuery = '*[_type == "experiences"]';
     const skillsQuery = '*[_type == "skills"]';
@@ -132,6 +143,27 @@ const About = () => {
             ))}
           </motion.div>
         </div>
+=======
+  return (
+    <>
+      <h2 className="head-text">Trying to turn data into <span> information, </span> <br />and information into <span> insight.</span></h2>
+
+      <div className="app__profiles">
+        {abouts.map((about, index) => (
+          <motion.div
+            whileInView={{ opacity: 1 }}
+            whileHover={{ scale: 1.1 }}
+            transition={{ duration: 0.5, type: 'tween' }}
+            className="app__profile-item"
+            key={about.title + index}
+          >
+            <img src={urlFor(about.imgUrl)} alt={about.title} />
+            <h2 className="bold-text" style={{ marginTop: 20 }}>{about.title}</h2>
+            <p className="p-text" style={{ marginTop: 10 }}>{about.description}</p>
+          </motion.div>
+        ))}
+      </div>
+>>>>>>> 58be3b803b0202b52abeb32a061277628cd57ab3
     </>
   );
 };
