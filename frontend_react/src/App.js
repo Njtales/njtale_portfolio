@@ -8,15 +8,9 @@ const App = () => (
   <div className="app">
     <Navbar />
     <Header />
-<<<<<<< HEAD
     <Work />
     <About />
     {/* <Skills /> */}
-=======
-    <About />
-    <Work />
-    <Skills />
->>>>>>> 58be3b803b0202b52abeb32a061277628cd57ab3
     <Footer />
   </div>
 );

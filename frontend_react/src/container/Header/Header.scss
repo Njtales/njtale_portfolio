@@ -1,17 +1,9 @@
 #home {
   position: relative;
-<<<<<<< HEAD
-=======
-  // background: url("../../assets/images/bgIMG.png");
->>>>>>> 58be3b803b0202b52abeb32a061277628cd57ab3
   background-size: cover;
   background-position: center;
   background-repeat: repeat;
 
-<<<<<<< HEAD
-=======
-  // disable the default padding styles
->>>>>>> 58be3b803b0202b52abeb32a061277628cd57ab3
   .app__wrapper {
     padding: 0;
 
@@ -26,10 +18,6 @@
   width: 100%;
   height: 100%;
   flex-direction: row;
-<<<<<<< HEAD
-=======
-
->>>>>>> 58be3b803b0202b52abeb32a061277628cd57ab3
   padding: 6rem 2rem 0rem;
 
   @media screen and (min-width: 2000px) {
@@ -45,18 +33,12 @@
   }
 }
 
-<<<<<<< HEAD
 .header-aboutsection {
-=======
-
-.header-aboutsection{
->>>>>>> 58be3b803b0202b52abeb32a061277628cd57ab3
   flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-<<<<<<< HEAD
   height: 100%;
   margin-right: 0rem;
   margin-left: 14rem;
@@ -69,26 +51,14 @@
     margin-right: 0rem;
     margin-left: 2rem;
   }
-=======
-  height: 90%;
-  margin-right: 10rem;
-  margin-left: 6rem;
->>>>>>> 58be3b803b0202b52abeb32a061277628cd57ab3
 
   @media screen and (max-width: 1200px) {
     width: 100%;
     margin-right: 0rem;
     margin-left: 0rem;
   }
-<<<<<<< HEAD
 }
 
-=======
-
-}
-
-
->>>>>>> 58be3b803b0202b52abeb32a061277628cd57ab3
 .app__header-badge {
   padding: 1rem 2rem;
   width: 100%;
@@ -96,7 +66,6 @@
   justify-content: flex-start;
   align-items: flex-start;
   flex-direction: column;
-<<<<<<< HEAD
   position: relative;
   z-index: 3;
 
@@ -105,16 +74,6 @@
     border-radius: 5px;
     flex-direction: row;
     width: auto;
-=======
-
-  .badge-cmp {
-    background: var(--midblack-color);
-    border-radius: 5px;
-    flex-direction: row;
-    width: auto;
-
-    // box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
->>>>>>> 58be3b803b0202b52abeb32a061277628cd57ab3
   }
 
   .tag-cmp {
@@ -122,7 +81,6 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-<<<<<<< HEAD
     color: var(--brown-color);
     font-family: var(--font-playfair);
 
@@ -170,50 +128,6 @@
         .name {
           font-size: 2.5rem;
           font-family: var(--font-inter);
-=======
-    color: var(--lightwhite-color);
-    font-family: var(--font-itim);
-
-    p {
-      font-size: 2rem;
-      font-family: var(--font-itim);
-    
-      .name{
-        font-size: 4rem;
-        font-family: var(--font-itim);    
-        font-weight: 800;
-        color: var(--yellow-color);
-        
-      }
-      @media screen and (min-width: 2000px) {
-        font-size: 7rem;
-      }
-      @media screen and (min-width: 1200px) {
-        padding: 0.3rem 0rem 0rem;
-        font-size: 1.5rem;
-        .name{
-          font-size: 5rem;
-          font-family: var(--font-itim);    
-          font-weight: 750;
-          
-        }
-      }
-      @media screen and (max-width: 850px) {
-        padding: 0.3rem 0.6rem 0rem;
-        font-size: 1.25rem;
-        .name{
-          font-size: 3.7rem;
-          font-family: var(--font-itim);     
-          font-weight: 650;
-        }
-      }
-      @media screen and (max-width: 450px) {
-        padding: 0.1rem 0.3rem 0rem;
-        font-size: 1rem;
-        .name{
-          font-size: 2.5rem;
-          font-family: var(--font-itim);    
->>>>>>> 58be3b803b0202b52abeb32a061277628cd57ab3
           font-weight: 800;
         }
       }
@@ -233,18 +147,13 @@
     justify-content: flex-start;
     align-items: flex-start;
     font-size: 2rem;
-<<<<<<< HEAD
 
     .name {
-=======
-    .name{
->>>>>>> 58be3b803b0202b52abeb32a061277628cd57ab3
       font-size: 3rem;
     }
   }
 }
 
-<<<<<<< HEAD
 .header-text {
   font-size: 1rem;
   font-weight: 250;
@@ -274,30 +183,6 @@
     font-size: 0.7rem;
   }
 
-=======
-.header-text{
-  font-size: 1rem;
-  font-weight: 250;
-  font-family: var(--font-base);
-  color: var(--lightwhite-color);
-
-  @media screen and (min-width: 2000px) {
-    font-size: 1.5rem;
-  }
-  @media screen and (min-width: 1200px) {
-    font-size: 0.85rem;
-  }
-  @media screen and (max-width: 900px) {
-    padding: 1rem 1rem 1rem;
-    font-size: 0.8rem;
-  }
-  @media screen and (max-width: 450px) {
-    // padding: 1rem 1rem 2rem;
-    font-size: 0.7rem;
-  }
-
-
->>>>>>> 58be3b803b0202b52abeb32a061277628cd57ab3
   @media screen and (max-width: 1200px) {
     justify-content: flex-start;
     align-items: flex-start;
@@ -321,7 +206,6 @@
     z-index: 1;
   }
 
-<<<<<<< HEAD
   .topleft_blob {
     position: relative;
     top: -20%;
@@ -338,26 +222,10 @@
     width: 170%;
     height: 150%;
     z-index: 0;
-=======
-  .overlay_circle {
-    position: absolute;
-    top: 8;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 0;
-    width: 100%;
-    height: 95%;
-
->>>>>>> 58be3b803b0202b52abeb32a061277628cd57ab3
   }
 
   @media screen and (max-width: 1200px) {
     margin: 0.5rem 0;
-<<<<<<< HEAD
-
-=======
->>>>>>> 58be3b803b0202b52abeb32a061277628cd57ab3
     img {
       width: 85%;
       height: 85%;
@@ -367,19 +235,13 @@
   }
 }
 
-<<<<<<< HEAD
 .CVdownload-button {
   padding: 0.1rem 0rem 0rem 0rem;
-=======
-.CVdownload-button{
-  padding: 0.1rem 0rem 1rem 5rem;
->>>>>>> 58be3b803b0202b52abeb32a061277628cd57ab3
   flex: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
 
-<<<<<<< HEAD
   button {
     padding: 1rem 1rem;
     justify-content: center;
@@ -504,38 +366,3 @@
 }
 
 
-=======
-}
-
-button {
-  padding: 1rem 2rem;
-  // display: flex;
-  justify-content: center;
-  align-items: center;
-
-  letter-spacing: 0.1rem;
-  border: none;
-  background-color: var(--lightblack-color);
-  border-radius: 25px;
-  font-weight: 700;
-  outline: none;
-  cursor: pointer;
-  // margin: 0.75rem 0;
-  margin: 2rem 0 0 0;
-  font-family: var(--font-itim);
-  font-size: 1.1rem;
-  color: var(--yellow-color);
-
-  transition: cubic-bezier(0.55, 0.085, 0.68, 0.53);
-  cursor: pointer;
-
-  &:hover {
-    box-shadow: 0 0 5px var(--yellow-color);
-  }
-
-  @media screen and (max-width: 768px) {
-    width: 100%;
-    margin: 1rem 0;
-  }
-}
->>>>>>> 58be3b803b0202b52abeb32a061277628cd57ab3
