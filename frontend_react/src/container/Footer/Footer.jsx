@@ -43,7 +43,7 @@ const Footer = () => {
     <>
         <div className="app__footer-blob_img">
           <img src={images.contact_me} alt="contact_me" id="large-screen-image" />
-          <img src={images.contact_me90} alt="contact_me90" id="small-screen-image" />
+          <img src={images.contact_me90} alt="contact_me90" id="small-screen-image" style={{ width: '85%' }}/>
           <div className="contact_head-text">Let's talk!</div>
 
           <div className="app__footer-cards">
