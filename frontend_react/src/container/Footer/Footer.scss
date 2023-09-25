@@ -261,6 +261,10 @@
     font-weight: 140;
     font-size: 1.45rem;
   }
+  @media screen and (max-width: 1600px) {
+    font-weight: 80;
+    font-size: 1.25rem;
+  }
   @media screen and (max-width: 900px) {
     font-weight: 80;
     font-size: 1.05rem;
