@@ -41,33 +41,47 @@ const Footer = () => {
 
   return (
     <>
-        <div className="app__footer-left_img">
+        <div className="app__footer-blob_img">
           <img src={images.contact_me} alt="contact_me" id="large-screen-image" />
           <img src={images.contact_me90} alt="contact_me90" id="small-screen-image" />
           <div className="contact_head-text">Let's talk!</div>
+
           <div className="app__footer-cards">
+
             <div className="app__footer-card">
               <div className='contact-icon'>
-                <SiMinutemailer />
+              <a href="mailto:nikhiljatale@gmail.com">
+                  <SiMinutemailer />
+                </a>
               </div>
-              <div className="contact-text">Email Me:</div>
-              <a href="mailto:nikhiljatale@gmail.com" className="p-text">nikhiljatale@gmail.com</a>
+              <div className="contact-text">
+              <a href="mailto:nikhiljatale@gmail.com">Email Me:</a>
+              </div>
+              <a href="mailto:nikhiljatale@gmail.com" className="contact-number">nikhiljatale@gmail.com</a>
             </div>
 
             <div className="app__footer-card">
               <div className='contact-icon'>
-                <RiWhatsappFill />
+              <a href="https://wa.me/447826343049">
+                  <RiWhatsappFill />
+                </a>
               </div>
-              <div className="contact-text">WhatsApp Msg:</div>
-              <a href="https://wa.me/447826343049" target='_blank' rel='noreferrer' className="p-text">+44 7826343049</a>
+              <div className="contact-text">
+              <a href="https://wa.me/447826343049">WhatsApp Msg:</a>
+              </div>
+              <a href="https://wa.me/447826343049" target='_blank' rel='noreferrer' className="contact-number">+44 7826343049</a>
             </div>
 
             <div className="app__footer-card">
               <div className='contact-icon'>
-                <GiRotaryPhone />
+                <a href="tel:+44 7826343049">
+                  <GiRotaryPhone />
+                </a>
               </div>
-              <div className="contact-text">Phone Me:</div>
-              <a href="tel:+44 7826343049" className="p-text">+44 (0) 7826343049</a>
+              <div className="contact-text">
+                <a href="tel:+44 7826343049">Phone Me:</a>
+              </div>
+              <a href="tel:+44 7826343049" className="contact-number">+44 (0) 7826343049</a>
             </div>
           </div>
 
