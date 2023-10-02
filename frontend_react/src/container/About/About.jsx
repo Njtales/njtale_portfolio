@@ -45,14 +45,14 @@ const About = () => {
             <div className="about-left-column">
               <div className="about-storytitle">My Story</div>
                 <div className='about-storytext'>
-                  My journey in data engineering began in 2017, and it has been an exciting experience. Over the past four years, I have played a significant role in the digital realm, delivering impactful software solutions that have made a difference. I take pride in maintaining a 99% data pipeline uptime, demonstrating my commitment to smooth data flow. Additionally, I have achieved a 22% increase in efficiency KPIs, highlighting my skills in streamlining processes.<br/><br/>
+                My journey in data engineering began in 2017, and it has been an exciting experience. Over the past four years, I have played a significant role in the digital realm, delivering impactful software solutions that have made a difference. I take pride in maintaining a 99% data pipeline uptime, demonstrating my commitment to smooth data flow. Additionally, I have achieved a 22% increase in efficiency KPIs, highlighting my skills in streamlining processes.<br/><br/>
 
-                  However, my journey is not limited to professional achievements. Outside of work, I have worked on personal projects that push boundaries. I developed a real-time sign language recognition system and created a data pipeline for processing S&P 500 data. These achievements have earned me two "Employee of the Month" awards, reflecting my pursuit of excellence. To further my knowledge, I have completed multiple data science and machine learning courses, staying up-to-date with industry trends.<br/><br/>
+                However, my journey is not limited to professional achievements. Outside of work, I have worked on personal projects that push boundaries. I developed a real-time sign language recognition system and created a data pipeline for processing S&P 500 data. These achievements have earned me two "Employee of the Month" awards, reflecting my pursuit of excellence. I have completed multiple data science and machine learning courses to further my knowledge and stay up-to-date with industry trends.<br/><br/>
 
-                  I possess technical expertise in Python, R, PostgreSQL, MS-SQL, MongoDB, TSQL, and various data-related tools. I proficiently handle data warehousing, integration, modeling, visualization, and analysis. Moreover, I am skilled in Apache Spark, PySpark, Kafka, Airflow, Git, GitHub, EC2, Redshift, IAM, S3, Glue, Kinesis, Docker, Tableau, Power BI, and various DevOps tools, making me a versatile data engineer.<br/><br/>
+                I possess technical expertise in Python, R, PostgreSQL, MS-SQL, MongoDB, TSQL, and various data-related tools. I proficiently handle data warehousing, integration, modelling, visualization, and analysis. Moreover, I am skilled in Apache Spark, PySpark, Kafka, Airflow, Git, GitHub, EC2, Redshift, IAM, S3, Glue, Kinesis, Docker, Tableau, Power BI, and various DevOps tools, making me a versatile data engineer.<br/><br/>
 
-                  Currently, I am based in London and am actively seeking data engineering opportunities across the UK. In addition to data engineering, I have a passion for analyzing market data, enjoy sketching, and find solace in reading books. These interests enrich my journey as a data enthusiast.<br/><br/>
-              </div>
+                Currently, I am based in London and am actively seeking data engineering opportunities across the UK. In addition to data engineering, I am passionate about analyzing market data, enjoy sketching, and find solace in reading books. These interests enrich my journey as a data enthusiast.<br/><br/>
+                  </div>
             </div>
             <div className="about-right-column">
               <div className='about-work'>

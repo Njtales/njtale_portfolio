@@ -205,6 +205,7 @@
     object-fit: contain;
     margin-left: -1.5rem;
     z-index: 1;
+
   }
 
   .topleft_blob {
@@ -228,11 +229,11 @@
     }
   
     @media screen and (max-width: 900px) {
-      left: -37%;
+      left: -33%;
     }
   
     @media screen and (max-width: 450px) {
-      left: -34%;
+      left: -28%;
     }
   }
 
