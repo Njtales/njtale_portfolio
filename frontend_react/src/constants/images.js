@@ -7,6 +7,9 @@ import python from '../assets/images/python.png';
 import dataviz from '../assets/images/dataviz.png';
 import db from '../assets/images/db.png';
 import profile from '../assets/images/profile.png';
+import profile_01 from '../assets/images/profile_01.png';
+import profile_02 from '../assets/images/profile_02.png';
+
 import logo from '../assets/images/logo.svg';
 import footerleft from '../assets/images/footerleft.png';
 
@@ -39,6 +42,9 @@ export default {
   db,
   python,
   profile,
+  profile_01,
+  profile_02,
+
   logo,
   letter_n,
 
