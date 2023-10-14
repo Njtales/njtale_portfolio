@@ -415,3 +415,29 @@
     display: block;
   }
 }
+
+
+.moving-dots-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+// adding moving dots
+.moving-dot {
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  background-color: #ff0000; /* Replace with your desired color */
+  border-radius: 50%;
+  animation: move 10s linear infinite; /* Adjust duration and animation as needed */
+}
+
+@keyframes move {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(50px, 50px); /* Adjust distance and direction */
+  }
+}

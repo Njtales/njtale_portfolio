@@ -41,16 +41,12 @@ const Header = () => (
 
           </motion.div>
             <div className="header-text">
-              {/* <h2>I am a motivated Software Developer/Data Analyst with experience in analyzing and finding hidden insights in the data, visualizing reports, and building prediction models.<br/>
-              <br/>Skilled in machine learning, ETL, data visualization, problem-solving, and programming.</h2> */}
-              {/* <h2>Experienced Software Developer/Data Analyst skilled in machine learning, ETL, data visualization,<br/>
-              and problem-solving with a passion for analyzing data and building predictive models.</h2> */}
               <h2>Unleashing the Power of Data Engineering:<br/> Crafting Insights, Connecting and Building Predictive Dreams</h2>
             </div>
 
         <div className="button-container">
           <div className="CVdownload-button">
-            <a href="https://drive.google.com/u/0/uc?id=1v6lpKpo-esftMuiMv0zswe5ay1B8o3f_&export=download">
+            <a href="https://drive.google.com/u/0/uc?id=13-tDlVWG-pxoFauC-3F4306K1yCmPcGt&export=download">
               <button type='submit'>
                 DOWNLOAD CV
               </button>
