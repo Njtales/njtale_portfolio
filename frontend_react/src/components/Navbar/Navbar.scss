@@ -23,12 +23,12 @@
   align-items: center;
 
   img {
-    width: 37px; 
-    height: 37px; 
+    width: 42px; 
+    height: 40px; 
 
     @media screen and (max-width: 767px) {
-      width: 30px;
-      height: 30px;
+      width: 34px;
+      height: 34px;
     }
 
     @media screen and (min-width: 2000px) {

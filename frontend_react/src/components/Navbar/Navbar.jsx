@@ -19,12 +19,9 @@ const Navbar = () => {
       <div>
         <a href='https://njtales.com/' className="app__navbar-logoname">
 
-          <img className="app__navbar-logoname" src={images.logo} alt="logo" />
+          {/* <img className="app__navbar-logoname" src={images.logo} alt="logo" /> */}
         </a>
       </div>
-
-
-
 
       <ul className="app__navbar-links">
         {['home', 'work', 'about', 'contact'].map((item) => (
