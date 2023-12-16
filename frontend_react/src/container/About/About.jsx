@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import ReactTooltip from 'react-tooltip';
 import { AppWrap, MotionWrap } from '../../wrapper';
 import { urlFor, client } from '../../client';
+import { images } from '../../constants';
 import './About.scss';
 
 
@@ -53,7 +54,9 @@ const About = () => {
 
                 Currently, I am based in London and am actively seeking data engineering opportunities across the UK. In addition to data engineering, I am passionate about analyzing market data, enjoy sketching, and find solace in reading books. These interests enrich my journey as a data enthusiast.<br/><br/>
                   </div>
+          
             </div>
+
             <div className="about-right-column">
               <div className='about-work'>
               <span>Where I've Worked</span>
@@ -113,6 +116,7 @@ const About = () => {
               </motion.div>
             ))}
           </div>
+
           <motion.div className="app__skills-list">
             {skills.map((skill) => (
               <motion.div
@@ -131,6 +135,7 @@ const About = () => {
               </motion.div>
             ))}
           </motion.div>
+          
         </div>
     </>
   );
